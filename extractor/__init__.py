@@ -13,6 +13,7 @@ __all__ = [
     "zhihu_video",
     "weishi",
     "zuiyou_voice",
+    "zuiyou_video",
     "qqmusic",
     "qianqian",
     "sing5",
@@ -32,4 +33,6 @@ __all__ = [
     "sohuTV",
     "ted",
     "tudou",
+    "quanminxsp",
+    "tiktok",
 ]
