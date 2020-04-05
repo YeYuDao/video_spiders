@@ -35,4 +35,5 @@ __all__ = [
     "tudou",
     "quanminxsp",
     "tiktok",
+    "huoshan",
 ]
