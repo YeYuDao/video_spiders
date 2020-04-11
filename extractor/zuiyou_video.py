@@ -42,5 +42,5 @@ def get(url: str) -> dict:
 
 
 if __name__ == "__main__":
-    url = "https://share.izuiyou.com/detail/147486886?zy_to=applink&to=applink"
+    url = "https://share.izuiyou.com/detail/161089063?zy_to=applink&to=applink"
     print(get(url))

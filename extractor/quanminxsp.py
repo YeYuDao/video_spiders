@@ -15,7 +15,6 @@ def get(url: str) -> dict:
         "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
         "Cache-Control": "max-age=0",
         "Connection": "keep-alive",
-        "Cookie": "COMMON_LID=d8d795e732f64cd28cbbce9ee76688af; Hm_lvt_a42a9a9e9ea0c8ce010e90569767e0f4=1585966701; Hm_lpvt_a42a9a9e9ea0c8ce010e90569767e0f4=1585969995",
         "DNT": "1",
         "Host": "quanmin.hao222.com",
         "Sec-Fetch-Dest": "document",

@@ -36,4 +36,6 @@ __all__ = [
     "quanminxsp",
     "tiktok",
     "huoshan",
+    "xigua",
+    'miaopai'
 ]

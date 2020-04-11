@@ -114,13 +114,24 @@ def get(url=None):
     elif "zhihu" in url:
         f = zhihu_video
     elif "zuiyou" in url:
-        f = zuiyou_voice
+        # f = zuiyou_voice
+        f = zuiyou_video
     elif "sohu" in url:
         f = sohuTV
     elif "ted" in url:
         f = ted
     elif "tudou" in url:
         f = tudou
+    elif "quanmin.hao222.com" in url:
+        f = quanminxsp
+    elif "tiktok" in url:
+        f = tiktok
+    elif "huoshan" in url:
+        f = huoshan
+    elif "xigua" in url:
+        f = xigua
+    elif "miaopai" in url:
+        f = miaopai
     else:
         return {"msg": "链接无法解析"}
     return f.get(url)
